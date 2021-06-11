@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'YutoPythonTest2'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_52416d81b5eb439697b910d0c33b97da }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_4110955db56f4caab4b27b8e6288c2e6 }}
