@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.8'
+        python-version: '3.9'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'YutoPythonTest'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_66cefa7855ae4527a6d701d17bbed6b1 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_4889d508bc1c402cbfbf6b1868b9a719 }}
